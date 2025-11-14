@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyTorch model files
+*.pt
+*.pth
+models/*.pt
+models/*.pth
+
+# YOLO training outputs
+runs/
+yolo_results/
+
+# Data folders (VERY IMPORTANT, don't upload raw dataset)
+data/
+dataset/
+*.zip
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+Project Title.docx
