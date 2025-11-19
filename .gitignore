@@ -41,3 +41,5 @@ dataset/
 .DS_Store
 Thumbs.db
 Project Title.docx
+~$Project Title.docx
+~$*.docx
