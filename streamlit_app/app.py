@@ -16,7 +16,14 @@ def load_model():
         nn.Linear(model.last_channel, 2)
     )
     
-    model.load_state_dict(torch.load("models/best_classifier.pt", map_location="cpu"))
+    # Handle both local development and deployment paths
+    import os
+    if os.path.exists("models/best_classifier.pt"):
+        model_path = "models/best_classifier.pt"
+    else:
+        model_path = "../models/best_classifier.pt"
+    
+    model.load_state_dict(torch.load(model_path, map_location="cpu"))
     model.eval()
     return model
 

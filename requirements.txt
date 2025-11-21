@@ -1,0 +1,15 @@
+# Core Deep Learning Framework
+torch
+torchvision
+
+# Web Application Framework
+streamlit
+
+# Interactive Visualization
+plotly
+
+# Image Processing
+Pillow
+
+# Essential Scientific Computing
+numpy
